@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		94749F3E17BC643F0006703C /* BoxUserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 94749F3D17BC643F0006703C /* BoxUserTests.m */; };
+		94749F4117BD95EF0006703C /* BoxUsersRequestBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 94749F3F17BD95EF0006703C /* BoxUsersRequestBuilder.h */; };
+		94749F4217BD95EF0006703C /* BoxUsersRequestBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 94749F4017BD95EF0006703C /* BoxUsersRequestBuilder.m */; };
+		94749F4517BDFB2E0006703C /* BoxUsersResourceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 94749F4317BDFB2D0006703C /* BoxUsersResourceManager.h */; };
+		94749F4617BDFB2E0006703C /* BoxUsersResourceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 94749F4417BDFB2D0006703C /* BoxUsersResourceManager.m */; };
+		94749F4D17BEFAF30006703C /* BoxUsersRequestBuilderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 94749F4C17BEFAF30006703C /* BoxUsersRequestBuilderTests.m */; };
+		94749F5017BEFB1C0006703C /* BoxUsersResourceManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 94749F4F17BEFB1C0006703C /* BoxUsersResourceManagerTests.m */; };
 		C5152CFE17541B66007A5C0A /* BoxFolderPickerHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = C5152CF817541B66007A5C0A /* BoxFolderPickerHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C5152CFF17541B66007A5C0A /* BoxFolderPickerHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C5152CF917541B66007A5C0A /* BoxFolderPickerHelper.m */; };
 		C5152D0017541B66007A5C0A /* BoxFolderPickerTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C5152CFA17541B66007A5C0A /* BoxFolderPickerTableViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -217,6 +224,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		94749F3C17BC643F0006703C /* BoxUserTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoxUserTests.h; sourceTree = "<group>"; };
+		94749F3D17BC643F0006703C /* BoxUserTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoxUserTests.m; sourceTree = "<group>"; };
+		94749F3F17BD95EF0006703C /* BoxUsersRequestBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoxUsersRequestBuilder.h; sourceTree = "<group>"; };
+		94749F4017BD95EF0006703C /* BoxUsersRequestBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoxUsersRequestBuilder.m; sourceTree = "<group>"; };
+		94749F4317BDFB2D0006703C /* BoxUsersResourceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoxUsersResourceManager.h; sourceTree = "<group>"; };
+		94749F4417BDFB2D0006703C /* BoxUsersResourceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoxUsersResourceManager.m; sourceTree = "<group>"; };
+		94749F4B17BEFAF30006703C /* BoxUsersRequestBuilderTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoxUsersRequestBuilderTests.h; sourceTree = "<group>"; };
+		94749F4C17BEFAF30006703C /* BoxUsersRequestBuilderTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoxUsersRequestBuilderTests.m; sourceTree = "<group>"; };
+		94749F4E17BEFB1C0006703C /* BoxUsersResourceManagerTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoxUsersResourceManagerTests.h; sourceTree = "<group>"; };
+		94749F4F17BEFB1C0006703C /* BoxUsersResourceManagerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoxUsersResourceManagerTests.m; sourceTree = "<group>"; };
 		C5152CF817541B66007A5C0A /* BoxFolderPickerHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoxFolderPickerHelper.h; sourceTree = "<group>"; };
 		C5152CF917541B66007A5C0A /* BoxFolderPickerHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoxFolderPickerHelper.m; sourceTree = "<group>"; };
 		C5152CFA17541B66007A5C0A /* BoxFolderPickerTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoxFolderPickerTableViewController.h; sourceTree = "<group>"; };
@@ -804,6 +821,8 @@
 				E4FAD9B6172CE2C50052AD11 /* BoxItemsRequestBuilder.m */,
 				E4FAD9B7172CE2C50052AD11 /* BoxSharedObjectBuilder.h */,
 				E4FAD9B8172CE2C50052AD11 /* BoxSharedObjectBuilder.m */,
+				94749F3F17BD95EF0006703C /* BoxUsersRequestBuilder.h */,
+				94749F4017BD95EF0006703C /* BoxUsersRequestBuilder.m */,
 			);
 			path = RequestBuilders;
 			sourceTree = "<group>";
@@ -817,6 +836,8 @@
 				E4FAD9BD172CE2C50052AD11 /* BoxFilesResourceManager.m */,
 				E4FAD9BE172CE2C50052AD11 /* BoxFoldersResourceManager.h */,
 				E4FAD9BF172CE2C50052AD11 /* BoxFoldersResourceManager.m */,
+				94749F4317BDFB2D0006703C /* BoxUsersResourceManager.h */,
+				94749F4417BDFB2D0006703C /* BoxUsersResourceManager.m */,
 			);
 			path = ResourceManagers;
 			sourceTree = "<group>";
@@ -845,6 +866,8 @@
 				E4FADA07172CE2DF0052AD11 /* BoxModelTests.m */,
 				E4FADA08172CE2DF0052AD11 /* BoxWebLinkTests.h */,
 				E4FADA09172CE2DF0052AD11 /* BoxWebLinkTests.m */,
+				94749F3C17BC643F0006703C /* BoxUserTests.h */,
+				94749F3D17BC643F0006703C /* BoxUserTests.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -876,6 +899,8 @@
 				E4FADA14172CE2DF0052AD11 /* BoxFilesRequestBuilderTests.m */,
 				E4FADA15172CE2DF0052AD11 /* BoxFoldersRequestBuilderTests.h */,
 				E4FADA16172CE2DF0052AD11 /* BoxFoldersRequestBuilderTests.m */,
+				94749F4B17BEFAF30006703C /* BoxUsersRequestBuilderTests.h */,
+				94749F4C17BEFAF30006703C /* BoxUsersRequestBuilderTests.m */,
 			);
 			path = RequestBuilders;
 			sourceTree = "<group>";
@@ -887,6 +912,8 @@
 				E4FADA19172CE2DF0052AD11 /* BoxFilesResourceManagerTests.m */,
 				E4FADA1A172CE2DF0052AD11 /* BoxFoldersResourceManagerTests.h */,
 				E4FADA1B172CE2DF0052AD11 /* BoxFoldersResourceManagerTests.m */,
+				94749F4E17BEFB1C0006703C /* BoxUsersResourceManagerTests.h */,
+				94749F4F17BEFB1C0006703C /* BoxUsersResourceManagerTests.m */,
 			);
 			path = ResourceManagers;
 			sourceTree = "<group>";
@@ -942,6 +969,8 @@
 				C5C11A44175DACCE0001EC88 /* UIImage+BoxAdditions.h in Headers */,
 				C58BC262175EDD670071BF37 /* BoxItem+BoxAdditions.h in Headers */,
 				C58BC268175EDF7C0071BF37 /* BoxODRefreshControl.h in Headers */,
+				94749F4117BD95EF0006703C /* BoxUsersRequestBuilder.h in Headers */,
+				94749F4517BDFB2E0006703C /* BoxUsersResourceManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1187,6 +1216,8 @@
 				C5C11A45175DACCE0001EC88 /* UIImage+BoxAdditions.m in Sources */,
 				C58BC263175EDD670071BF37 /* BoxItem+BoxAdditions.m in Sources */,
 				C58BC269175EDF7C0071BF37 /* BoxODRefreshControl.m in Sources */,
+				94749F4217BD95EF0006703C /* BoxUsersRequestBuilder.m in Sources */,
+				94749F4617BDFB2E0006703C /* BoxUsersResourceManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1210,6 +1241,9 @@
 				E4FADA27172CE2DF0052AD11 /* BoxFoldersRequestBuilderTests.m in Sources */,
 				E4FADA28172CE2DF0052AD11 /* BoxFilesResourceManagerTests.m in Sources */,
 				E4FADA29172CE2DF0052AD11 /* BoxFoldersResourceManagerTests.m in Sources */,
+				94749F3E17BC643F0006703C /* BoxUserTests.m in Sources */,
+				94749F4D17BEFAF30006703C /* BoxUsersRequestBuilderTests.m in Sources */,
+				94749F5017BEFB1C0006703C /* BoxUsersResourceManagerTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

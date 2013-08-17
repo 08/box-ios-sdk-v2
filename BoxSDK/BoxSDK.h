@@ -36,12 +36,14 @@
 #import "BoxAPIRequestBuilder.h"
 #import "BoxFilesRequestBuilder.h"
 #import "BoxFoldersRequestBuilder.h"
+#import "BoxUsersRequestBuilder.h"
 #import "BoxSharedObjectBuilder.h"
 
 // API Resource Managers
 #import "BoxAPIResourceManager.h"
 #import "BoxFilesResourceManager.h"
 #import "BoxFoldersResourceManager.h"
+#import "BoxUsersResourceManager.h"
 
 // API models
 #import "BoxModel.h"
